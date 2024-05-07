@@ -1,0 +1,75 @@
+/* Basic styling for the chatbox */
+#chatbox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+}
+#chatbox h1 {
+  
+       
+    margin: 0;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    
+    border-bottom: 1px solid #ccc;
+}
+
+#logo-container {
+    text-align: center;  /* Center the logo within the container */
+    margin-bottom: 20px; /* Add some spacing below the logo */
+}
+
+#logo-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+#messageInput {
+    width: 100%;
+    padding: 5px;
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#messages li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container {
+    /* width: 80%; */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 auto; /* This centers the container horizontally */
+    /* text-align: center;  */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#send {
+    background-color: #4CAF50; /* Green send button */
+    color: white;
+    margin-left: 5px; /* Slight spacing between buttons */
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px; /* More padding for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
