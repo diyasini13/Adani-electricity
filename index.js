@@ -283,8 +283,8 @@ async function synthesizeSpeech(text, isSSMl = false) {
             ssml: text,
         },
         voice: {
-            languageCode: "en-IN", // Use Hindi language code
-            name:  "en-IN-Wavenet-A", // Use Hindi Wavenet voice
+            languageCode: DETECTED_LANGUAGE, // Use Hindi language code
+            name:  DETECTED_LANGUAGE + "-IN-Wavenet-A", // Use Hindi Wavenet voice
         },
         audioConfig: {
             audioEncoding: "LINEAR16",
